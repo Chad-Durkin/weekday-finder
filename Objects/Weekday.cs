@@ -27,7 +27,6 @@ using System.Collections.Generic;
          _legalday = CheckMonthsDays();
          _dayOfWeek = FindTheWeekDay();
          _finalDayOfWeek = ConvertToWeekDay();
-         Console.WriteLine(_finalDayOfWeek);
          _allWeekdays.Add(this);
        }
 
@@ -96,7 +95,6 @@ using System.Collections.Generic;
          int lastTwo = int.Parse(strLastTwo);
          int firstTwo = int.Parse(strFirstTwo);
          int dayOfWeek;
-         string nameOfDay;
          int newMonth = _month + 10;
          if(newMonth > 12)
          {
